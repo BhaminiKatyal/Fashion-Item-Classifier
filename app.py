@@ -9,7 +9,6 @@ app = Flask(__name__)
 # Load CNN model
 model = tf.keras.models.load_model("cnn_model.keras")
 
-# Fashion MNIST labels (modify if your dataset differs)
 class_names = [
     "T-shirt/top", "Trouser", "Pullover", "Dress", "Coat",
     "Sandal", "Shirt", "Sneaker", "Bag", "Ankle boot"
